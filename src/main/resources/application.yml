@@ -1,0 +1,9 @@
+management.metrics.export.graphite:
+  enabled: true
+  host: gmonrelay.p13.eng.in03.qualys.com
+  port: 2003
+  protocol: Plaintext
+  step: PT1M
+  prefix: agms.host-akash
+
+
